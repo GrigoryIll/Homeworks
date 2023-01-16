@@ -3,6 +3,7 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 
+
 Console.WriteLine("Введите первое число:");
 string numA = Console.ReadLine();
 int a = Convert.ToInt32(numA);
