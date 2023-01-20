@@ -36,7 +36,7 @@ else if (num == 7)
 {
 Console.WriteLine("Воскресенье - выходной");
 }
-else if (num > 7)
+else if (num > 7 || num < 1)
 {
-Console.WriteLine("Нет такого дня недели");
+Console.WriteLine("Нет такого дня недели, введите число от 1 до 7");
 }
