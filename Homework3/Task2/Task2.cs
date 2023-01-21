@@ -22,7 +22,7 @@ int getCoordFromUser(string message)
     return result;
 }
 
-double getDistance(int ax, int ay, int bx, int by, int az, int bz)
+double getDistance(int ax, int ay, int az, int bx, int by, int bz)
 {
     double result = Math.Sqrt(Math.Pow(ax-bx,2) + Math.Pow(ay-by, 2) + Math.Pow(az-bz, 2) );
     return result;
@@ -34,8 +34,8 @@ int az = getCoordFromUser("Enter z coordinate of the first point");
 
 int bx = getCoordFromUser("Enter x coordinate of the second point");
 int by = getCoordFromUser("Enter y coordinate of the second point");
-int bz = getCoordFromUser("Enter z coordinate of the second point");
+int bz = getCoordFromUser("Enter y coordinate of the second point");
 
-double distance = getDistance(ax, ay, bx, by, az, bz);
+double distance = getDistance(ax, ay, az, bx, by, bz);
 
 Console.WriteLine($"Distance between({ax},{ay},{az}) and ({bx},{by},{bz}) is {distance}");
