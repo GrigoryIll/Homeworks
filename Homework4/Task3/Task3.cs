@@ -19,4 +19,4 @@ void PrintArray (int[] array)
         Console.Write($" {array[i]} ");
     }
 }
-PrintArray(a);
+PrintArray();
