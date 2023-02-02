@@ -2,13 +2,13 @@
 
 int [] CreateArray()
 {
-    int [] Array = new int [8];
+    int [] array = new int [8];
     Random number = new Random();
     for (int i = 0; i < 8; i++)
     {
-        Array[i] = number.Next();
+        array[i] = number.Next();
     }
-    return Array;
+    return array;
 }
 int [] a = CreateArray();
 
@@ -19,4 +19,4 @@ void PrintArray (int[] array)
         Console.Write($" {array[i]} ");
     }
 }
-PrintArray();
+PrintArray(a);
