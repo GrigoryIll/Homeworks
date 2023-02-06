@@ -55,3 +55,5 @@ if (number < 0)
     
     }
 }
+
+int[,] matrix = InitMatrix(4, 4);
